@@ -28,19 +28,28 @@ docker run -it --rm -v <PATH_TO_BASIL_TRAINING_DIRECTORY>:/training ubuntu
 │   ├── solution
 │   │   └── setup.sh
 │   └── src
+│       ├── templates
+│       │   └── home.html
 │       └── webapp.py
 ├── LEVEL2
 │   ├── README.md
+│   ├── requirements.txt
+│   ├── solution
+│   │   └── setup.sh
 │   └── src
+│       ├── templates
+│       │   ├── home.html
+│       │   └── image.html
 │       └── webapp.py
 ├── LEVEL3
 │   ├── README.md
 │   ├── solution
+│   │   └── setup.sh
 │   └── src
 │       └── donut.c
 ├── LEVEL4
 │   ├── README.md
-│   └── src
+│   └── setup.sh
 ├── LEVEL5
 │   └── README.md
 └── README.md

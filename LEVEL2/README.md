@@ -1,4 +1,4 @@
-# Level 1 - Image Processing App
+# Level 2 - Image Processing App
 
 In this level, you will learn the basics of Basil and use it to containerize a simple image processing application into docker and singularity images.
 
@@ -73,7 +73,7 @@ The goal of this step is to containerize the application using Basil's iSpec for
 * Volumes
     * The application stores the uploaded images in the /images directory. So, type the following in the "Volumes" section to keep the uploaded images persistent even after the container is stopped:
     ```bash
-    images:/images
+    /images
     ```
 * Setup/Installation Commands
     * Copy the contents of setup.sh script to "Setup/Installation Commands" section.
