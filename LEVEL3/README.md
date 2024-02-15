@@ -26,7 +26,7 @@ cd LEVEL3
 ```
 * Start the basil standalone version
 ```bash
-docker run --platform linux/amd64 --rm -it -v .:/project basilproject/basil_sanjeethboddigm_1707863027:latest
+docker run --platform linux/amd64 --rm -it -v .:/project basilproject/basil_sanjeethboddigm_1708035159:latest
 ```
 * Once you start the basil standalone version, you will be prompted for the information similar to the iSpec form. 
 * Provide the necessary information to containerize the application into docker and singularity images.
