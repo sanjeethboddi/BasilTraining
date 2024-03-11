@@ -23,8 +23,7 @@ def get_todos():
 # API to get a specific todo by ID
 @app.route('/todos/<int:todo_id>', methods=['GET'])
 def get_todo(todo_id):
-    todo = next((item for item in todo_list if item["id"] == todo_id), None)
-    if todo:
+    if todo := next((item for item in todo_list if item["id"] == todo_id), None):
         return jsonify(todo)
     else:
         return jsonify({"error": "Todo not found"}), 404
